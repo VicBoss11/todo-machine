@@ -1,0 +1,51 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  background-color: #fafafa;
+  position: relative;
+  box-shadow: 0 5px 50px rgba(32, 35, 41, .15);
+}
+
+.todo-item-text {
+  font-size: 18px;
+  margin-right: 56px;
+  max-width: 300px;
+  overflow: hidden;
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.todo-icon {
+  height: 32px;
+  width: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  color: #7C7C7C;
+  cursor: pointer;
+}
+
+.todo-item-check {
+  margin-right: 24px;
+}
+
+.todo-item-delete {
+  position: absolute;
+  top: -18px;
+  right: 24px;
+}
+
+.todo-item-delete:hover {
+  color: #FE2E2E;
+}
+
+.todo-item--completed .todo-item-check {
+  color: #01BE01;
+}
+
+.todo-item--completed .todo-item-text {
+  text-decoration: line-through;
+}

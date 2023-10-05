@@ -1,0 +1,30 @@
+.create-todo-button {
+  height: 64px;
+  width: 64px;
+  background-color: #61dafa;
+  box-shadow: 0 5px 25px rgba(97, 218, 250, .5);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.create-todo-button span {
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  transform: rotate(0);
+  transition: .3s ease;
+}
+
+.create-todo-button span:hover {
+  transform: rotate(360deg);
+}

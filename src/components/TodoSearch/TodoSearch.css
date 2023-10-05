@@ -1,0 +1,22 @@
+.todo-search {
+  background-color: #f9fbfc;
+  border-radius: 2px;
+  border: 2px solid #202329;
+  margin: 0 auto;
+  height: 64px;
+  width: calc(100% - 62px);
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #1e1e1f;
+  box-shadow: 0 5px 50px rgba(32, 35, 41, .25);
+}
+
+.todo-search::placeholder {
+  color: #a5a5a5;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.todo-search:focus {
+  outline-color: #61dafa;
+}
